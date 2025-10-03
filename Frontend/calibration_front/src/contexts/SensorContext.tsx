@@ -140,7 +140,7 @@ export const SensorProvider: React.FC<SensorProviderProps> = ({ children }) => {
     initializeData();
 
     // Update sensor values every 10 seconds
-    const sensorInterval = setInterval(updateSensorValues, 10000);
+    const sensorInterval = setInterval(updateSensorValues, 600000);
 
     return () => {
       clearInterval(sensorInterval);

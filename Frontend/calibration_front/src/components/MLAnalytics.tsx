@@ -68,7 +68,7 @@ const MLAnalytics: React.FC = () => {
 
   useEffect(() => {
     fetchMLData();
-    const interval = setInterval(fetchMLData, 5000); // Update every 5 seconds
+    const interval = setInterval(fetchMLData, 60000); // Update every 5 seconds
     return () => clearInterval(interval);
   }, []);
 

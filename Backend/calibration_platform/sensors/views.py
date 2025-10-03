@@ -133,14 +133,6 @@ class AnomalyDetectAPIView(APIView):
 
 
 # ---------------- REPORT VIEWS ----------------
-class ReportGenerateAPIView(APIView):
-    def post(self, request):
-        # Placeholder for report generation
-        return Response({"message": "Report generation will be implemented here."})
-    
-
-# Removed duplicate classes - keeping the enhanced versions below
-
     
 class ReportGenerateAPIView(APIView):
     def post(self, request):
