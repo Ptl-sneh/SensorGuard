@@ -322,38 +322,5 @@ SECRET_KEY=your-secret-key
 DEBUG=False
 ALLOWED_HOSTS=your-domain.com
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Support
-
-For support and questions:
-
-- Create an issue in the repository
-- Contact the development team
-- Check the documentation
-
-## 🎯 Roadmap
-
-- [ ] Multi-tenant support
-- [ ] Advanced ML models
-- [ ] Mobile application
-- [ ] Real-time notifications
-- [ ] Advanced analytics dashboard
-- [ ] API rate limiting
-- [ ] Database optimization and indexing
-- [ ] Docker containerization
-
 ---
-
 **SensorGuard** - Empowering industries with intelligent sensor monitoring and calibration solutions. 🚀
