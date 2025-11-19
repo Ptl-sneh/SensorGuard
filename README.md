@@ -12,7 +12,7 @@ A comprehensive sensor monitoring and calibration platform that leverages artifi
 
 ### 🎯 Core Functionality
 
-- **Real-time Sensor Monitoring** - Live sensor data updates every 2 seconds
+- **Real-time Sensor Monitoring** - Live sensor data updates every 10 seconds
 - **AI-Powered Anomaly Detection** - Machine learning models detect sensor anomalies
 - **Drift Prediction** - Predictive analytics for sensor drift forecasting
 - **Automated Calibration** - AI-driven calibration recommendations
@@ -150,7 +150,7 @@ Frontend/calibration_front/
 ### 🏠 Dashboard
 
 - Real-time sensor monitoring
-- Live data updates every 2 seconds
+- Live data updates every 10 seconds
 - Sensor status indicators
 - System statistics overview
 
@@ -219,17 +219,13 @@ Frontend/calibration_front/
 - `POST /api/auth/login/` - User login
 - `POST /api/auth/register/` - User registration
 - `GET /api/auth/profile/` - Get user profile
-- `PUT /api/auth/profile/` - Update user profile
-- `POST /api/auth/change-password/` - Change password
 - `POST /api/auth/logout/` - Logout
 
 ### Sensors
 
 - `GET /api/sensors/` - List all sensors
-- `POST /api/sensors/` - Create new sensor
 - `GET /api/sensors/{id}/` - Get sensor details
 - `PUT /api/sensors/{id}/` - Update sensor
-- `DELETE /api/sensors/{id}/` - Delete sensor
 
 ### Readings
 
