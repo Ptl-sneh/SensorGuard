@@ -300,27 +300,7 @@ Frontend/calibration_front/
 
 ## 📈 Performance
 
-- **Real-time Updates**: 2-second sensor data refresh
+- **Real-time Updates**: 10-second sensor data refresh
 - **ML Processing**: Optimized model inference
 - **Database**: Efficient queries and indexing
 - **Frontend**: Optimized React rendering
-- **Caching**: Smart data caching strategies
-
-## 🚀 Deployment
-
-### Production Setup
-
-1. Set up environment variables
-2. Configure static file serving
-3. Set up SSL certificates
-4. Configure CORS for production domains
-
-### Environment Variables
-
-```bash
-SECRET_KEY=your-secret-key
-DEBUG=False
-ALLOWED_HOSTS=your-domain.com
-```
----
-**SensorGuard** - Empowering industries with intelligent sensor monitoring and calibration solutions. 🚀
